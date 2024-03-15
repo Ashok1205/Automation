@@ -1,0 +1,6 @@
+install ecliipse
+instal jdk
+download driver
+download jar files
+call the browser using system set property
+call the url using driver .get
