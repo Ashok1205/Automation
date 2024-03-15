@@ -5,3 +5,9 @@ download jar files
 call the browser using system set property
 call the url using driver .get
 driver.quit
+
+public static void main (String[]args){
+ System.setproperty(driver, location);
+ driver.get (Website);
+driver.findElement(Bty.id()).sendKeys("Value");
+}
