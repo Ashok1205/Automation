@@ -13,3 +13,4 @@ driver.findElement(Bty.id()).sendKeys("Value");
 }
 driver.quit();
 add one more step
+instead of jars add maven dependencies
