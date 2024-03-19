@@ -12,4 +12,4 @@ public static void main (String[]args){
 driver.findElement(Bty.id()).sendKeys("Value");
 }
 driver.quit();
-
+Validation of Merge Conflit
