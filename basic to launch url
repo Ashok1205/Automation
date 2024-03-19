@@ -11,3 +11,5 @@ public static void main (String[]args){
  driver.get (Website);
 driver.findElement(Bty.id()).sendKeys("Value");
 }
+driver.quit();
+
