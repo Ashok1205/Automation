@@ -1,19 +1,19 @@
 install ecliipse
 instal jdk
 download driver
-download jar files
-call the browser using system set property
-call the url using driver .get
-driver.quit
+add maven dependencies instead of har files
+
 
 public static void main (String[]args){
- System.setproperty(driver, location);
- driver.get (Website);
-driver.findElement(Bty.id()).sendKeys("Value");
-}
-driver.quit();
-add one more step
+WebDrivermanager.Chromedriver().setup();
+ Webdriver driver = new ChromeDriver();
+//call the url 
+using driver .get (url)
 
-instead of jars add maven dependencies
+driver.findElement(Bty.id()).sendKeys("Value");
+Thread.sleep();
+driver.quit();
+}
+
 
 
